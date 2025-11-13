@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.service {
+  padding: 199px 238px 160px 242px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 195px;
+  background-color: rgba(248, 248, 248, 1);
+}
+
+.service-content__title {
+  color: rgba(31, 31, 31, 1);
+  font-family: "Fraunces", sans-serif;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 63.8px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.service-content__description {
+  color: rgba(31, 31, 31, 1);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.service-content__btn {
+  padding: 8px 56px;
+  background-color: rgba(0, 112, 160, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  border: none;
+  margin-right: 30px;
+}
+
+.service-content__btn:hover {
+  cursor: pointer;
+  background-color: rgb(220, 142, 155);
+}
+
+.service-content__link {
+  color: rgba(0, 112, 160, 1);
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.service-content__link:hover {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.arrow {
+  width: 18px;
+  margin-left: 18px;
+}
