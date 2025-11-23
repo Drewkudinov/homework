@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.leadership {
+  padding: 100px 292px;
+  background-color: rgba(241, 248, 252, 1);
+}
+
+.leadership__title {
+  color: rgba(51, 51, 51, 1);
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 140%;
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.leadership__line {
+  width: 100px;
+  height: 4px;
+  background-color: rgba(43, 154, 214, 1);
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.leadership__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 78px 184px;
+  justify-content: center;
+}
+
+.card {
+  flex: 0 0 calc(33.333% - 184px);
+  position: relative;
+}
+
+.card__icon {
+  position: absolute;
+  top: 159px;
+  left: 149px;
+}
+
+.card__avatar {
+  margin-bottom: 20px;
+}
+
+.card__heading {
+  color: rgba(25, 79, 148, 1);
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 140%;
+  text-align: left;
+}
+
+.card__description {
+  color: rgba(95, 95, 95, 1);
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: left;
+}
+
+.card-hover__image {
+  margin-bottom: 20px;
+}
+
+.card-hover-1 {
+  padding-top: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card-hover-2 {
+  padding-top: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card-hover-3 {
+  padding-top: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card-hover-4 {
+  padding-top: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card-hover-5 {
+  padding-top: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card-hover__icon {
+  position: absolute;
+  top: 160px;
+  left: 166px;
+}
+
+.card-hover__heading {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 140%;
+  text-align: left;
+}
+
+.card-hover__description {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+}
+
+.card-hover-1 {
+  visibility: hidden;
+  transition: 0.3s ease;
+  background-image: url(../images/bg-1.png);
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.card-hover-2 {
+  visibility: hidden;
+  transition: 0.3s ease;
+  background-image: url(../images/bg-2.png);
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.card-hover-3 {
+  visibility: hidden;
+  transition: 0.3s ease;
+  background-image: url(../images/bg-3.png);
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.card-hover-4 {
+  visibility: hidden;
+  transition: 0.3s ease;
+  background-image: url(../images/bg-4.png);
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.card-hover-5 {
+  visibility: hidden;
+  transition: 0.3s ease;
+  background-image: url(../images/bg-5.png);
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.card:hover .card-hover-1 {
+  visibility: visible;
+}
+
+.card:hover .card-hover-2 {
+  visibility: visible;
+}
+
+.card:hover .card-hover-3 {
+  visibility: visible;
+}
+
+.card:hover .card-hover-4 {
+  visibility: visible;
+}
+
+.card:hover .card-hover-5 {
+  visibility: visible;
+}
