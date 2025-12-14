@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-wrapper {
+  width: 780px;
+  background: rgba(241, 240, 237, 1);
+  padding: 46px 80px;
+  position: relative;
+}
+
+.form-wrapper__title {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  text-align: left;
+  margin-bottom: 43px;
+}
+
+.form-wrapper__btn {
+  position: absolute;
+  top: 22px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group__name {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid rgba(218, 214, 206, 1);
+  background-color: transparent;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 1px solid rgba(218, 214, 206, 1);
+}
+
+.check-wrap {
+  display: flex;
+}
+
+.check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.check__link {
+  width: 300px;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -1%;
+  text-align: left;
+}
+
+.btn {
+  display: block;
+  border-radius: 250px 50px 240px;
+  border: 1px solid rgba(218, 214, 206, 1);
+  color: rgba(229, 72, 29, 1);
+  padding: 16px 88px;
+  cursor: pointer;
+}
